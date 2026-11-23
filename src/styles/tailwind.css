@@ -1,0 +1,6 @@
+/*
+ * Tailwind sem o "preflight" (reset global) para não alterar o visual das
+ * telas já construídas em app.css. Novas telas usam as classes utilitárias.
+ */
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);

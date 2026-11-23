@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-family: "DM Sans", sans-serif;
+  color: #202431;
+  background: #f7f8fa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+button,
+input {
+  font: inherit;
+}
+button {
+  color: inherit;
+}
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid rgba(91, 88, 190, 0.32);
+  outline-offset: 2px;
+}
+#root {
+  min-height: 100vh;
+}

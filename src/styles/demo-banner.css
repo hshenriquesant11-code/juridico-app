@@ -1,0 +1,10 @@
+.demo-banner {
+  margin: 0 0 16px;
+  padding: 10px 13px;
+  border: 1px solid #f1d7a4;
+  border-radius: 8px;
+  background: #fff8e8;
+  color: #77551a;
+  font-size: 11px;
+  line-height: 1.45;
+}
